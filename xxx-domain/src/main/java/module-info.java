@@ -5,4 +5,6 @@ module com.domain {
 
 	// api에만 공개하겠다.
 	// exports wisehero.domain to com.api;
+
+	opens wisehero.domain;
 }
