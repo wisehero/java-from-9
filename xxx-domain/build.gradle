@@ -17,11 +17,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-subprojects{
-    // sub 모듈 설정 적용
-}
-
-allprojects{
-    // sub + 상위 모듈 설정 적용
-}

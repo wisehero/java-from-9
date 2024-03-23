@@ -10,18 +10,12 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":xxx-domain"))
+
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
 test {
     useJUnitPlatform()
-}
-
-subprojects{
-    // sub 모듈 설정 적용
-}
-
-allprojects{
-    // sub + 상위 모듈 설정 적용
 }
